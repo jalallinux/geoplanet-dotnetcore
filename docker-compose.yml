@@ -1,7 +1,7 @@
 ﻿services:
   geoplanet:
     container_name: GeoPlanet
-    image: GeoPlanet
+    image: geoplanet
     build:
       context: .
       dockerfile: Dockerfile
