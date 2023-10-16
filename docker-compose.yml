@@ -1,0 +1,10 @@
+﻿services:
+  geoplanet:
+    container_name: GeoPlanet
+    image: GeoPlanet
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - '8000:80'
+      - '8443:443'
